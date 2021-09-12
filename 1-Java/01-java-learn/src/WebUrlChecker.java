@@ -7,7 +7,7 @@ public class WebUrlChecker {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the website address:");
 		String url=sc.nextLine();
-		if (url.startsWith("http://") || url.startsWith("https)://"))
+		if (url.startsWith("http://") || url.startsWith("https://"))
 		{
 			System.out.println("This is a web URL");
 			
